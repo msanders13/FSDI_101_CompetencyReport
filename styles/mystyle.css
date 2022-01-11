@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    
+    
+}
+h2 {
+    text-align:center;
+
+}
+mark{
+    background-color: lightblue;
+}
+
+h3 {
+    text-align:center;
+    background-color: lightblue;
+    
+}
+h4 {
+    text-align:center;
+    background-color: lightblue;
+}
+p{
+    line-height: 1;
+    font-size: 18px;
+    text-align: center;
+    width 80%;
+    color: black;
+
+}
+/* ul{
+    text-align: center;
+}
+li{
+    
+} */
+
+ul{
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+
+  }
+  ul li{
+    display: list-item;
+    background: lightblue;
+    padding: 5px 10px;
+    color:black;
+    margin: 0 3px;
+  }

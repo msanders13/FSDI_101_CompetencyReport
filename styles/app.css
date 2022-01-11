@@ -1,0 +1,114 @@
+/*GLobal*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,500;1,300&display=swap');
+*{
+    margin:0;
+    padding: 1px;
+    
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+
+/*-----------------------------------*/
+
+ul {
+    text-align: center; 
+    background-color: gray; 
+    padding: 15px 15px 15px 5px;
+    list-style-type: none;
+}
+p {
+    line-height: justify;
+    text-align:center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: darkgray;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+/*utilities*/
+.bold-text {
+    font-weight: 700;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/*-------------------------------HEADER--------------------------------------------------------------*/
+
+header{
+    background: none;
+}
+.header-title h1 {
+     text-transform: uppercase;
+}
+.header-title h2 {
+    text-transform: uppercase;
+}   
+.header-title h3 {
+    text-transform: uppercase;
+}
+.header-title p {
+    
+}
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+Nav a {
+    color: white;
+    margin-right: 30px;
+    letter-spacing: 3px;
+
+}
+nav a:hover{
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+/*main*/
+main {
+    height: 800px;
+    
+}
+.my-photo {
+max-width: 100%;
+width: 200px;
+height: 200px;
+display:block;
+margin: 10px auto;
+border-radius: 10px;
+border: 3px solid black;
+padding: 2px;
+}
+.my-photo:hover{
+    transform: scale(1.1);
+}
+/*bio*/
+li{
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+  /*Footer*/     
+  .footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%; 
+      background-color: black;
+      color: white;
+      text-align: center;
+      border-color: yellow;
+      border-radius: 1px;
+}
